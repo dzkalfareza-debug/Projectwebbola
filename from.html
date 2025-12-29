@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Komentar Pengunjung</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav" role="navigation" aria-label="Main Navigation">
+    <a href="index.html">Beranda</a>
+    <a href="indonesia.html">Indonesia</a>
+    <a href="negara.html">Profil Negara</a>
+    <a href="liga.html">Liga</a>
+    <a href="pemain.html">Pemain</a>
+    <a href="statistik.html">Statistik</a>
+    <a href="from.html">Komentar</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Form Komentar Pengunjung</h1>
+
+  <form id="komentarForm" class="card">
+    <label>Nama</label>
+    <input type="text" id="nama" placeholder="Nama Anda">
+
+    <label>Email</label>
+    <input type="email" id="email" placeholder="Email Anda">
+
+    <label>Komentar</label>
+    <textarea id="komentar" rows="5" placeholder="Tulis komentar Anda..."></textarea>
+    <small id="counter">0 / 200 karakter</small>
+
+    <button type="submit">Kirim Komentar</button>
+  </form>
+</main>
+
+<script src="komentar.js"></script>
+</body>
+</html>
